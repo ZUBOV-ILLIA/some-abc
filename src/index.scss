@@ -1,0 +1,30 @@
+@import "./utils/vars";
+@font-face {
+  font-family: Geometria;
+  src: url(./fonts/Geometria.ttf);
+}
+@font-face {
+  font-family: Roboto;
+  src: url(./fonts/Roboto-Regular.ttf);
+}
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto";
+  background-color: $mainBgColor;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 30px;
+  max-width: 1030px;
+}

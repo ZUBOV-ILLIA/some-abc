@@ -1,0 +1,19 @@
+@import '../../utils/vars';
+
+.header {
+  padding: 104px 0;
+  background-color: $mainElementColor;
+
+  &__inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__title {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    color: $mainTextColor;
+  }
+}

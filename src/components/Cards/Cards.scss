@@ -1,0 +1,39 @@
+@import "../../utils/_vars.scss";
+
+.cards {
+  color: $mainTextColor;
+
+  &__row {
+    margin: -64px 0;
+    padding: 100px 0 34px;
+    display: flex;
+    gap: 24px;
+    border-bottom: 1px solid #FFFFFF;
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+
+  &__container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  &__title {
+    padding-left: 10px;
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 46px;
+  }
+
+  &__card {
+    height: 250px;
+  }
+}
